@@ -129,10 +129,10 @@ install() {
 }
 
 install_full() {
-    echo "Loading image from someguy123/steem"
-    docker pull someguy123/steem:latest-full
+    echo "Loading image from mahdiyari/steem"
+    docker pull mahdiyari/steem:latest-full
     echo "Tagging as steem"
-    docker tag someguy123/steem:latest-full steem
+    docker tag mahdiyari/steem:latest-full steem
     echo "Installation completed. You may now configure or run the server"
 }
 seed_exists() {
